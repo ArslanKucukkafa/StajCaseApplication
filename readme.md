@@ -5,6 +5,10 @@ Default role is LABORANT. Admin give just only ADMIN role.
 Laborant can report add, delete,update and list in this application. 
 Admin can confirm account, delete account,list account, get detail account in this application.
 
+Also I have a initial data. İnitial data adding Role and one Admin.
+initial data path backend/src/main/resources/data.sql .
+Admin name:Arslan,surname:Küçükkafa,laborant_id:87654321,password:Arslan19@ .
+You can use this informations when to build apllication.
 
 ## Using
 Enter the folder if you are installed repository git clone or other ways 
