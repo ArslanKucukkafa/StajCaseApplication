@@ -9,4 +9,3 @@ VALUES (999999,'Arslan','Küçükkafa','87654321',true,'$2a$10$QQDeXRAmgvEEWWrCg
 
 INSERT INTO laborant_roles (laborant_id,role_id)
 VALUES (999999,1);
-

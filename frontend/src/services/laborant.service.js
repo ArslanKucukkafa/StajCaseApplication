@@ -29,9 +29,10 @@ const updateReport = (formData) =>{
 const deleteReport = (reportId) =>{
     return axios.post(API_URL+"/api/v1/laboratories/deleteReport?report_id="+reportId,null,{headers:header()})
 }
+//{ params: filter }
+const listReport = (filter) =>{
 
-const listReport = () =>{
-    return axios.get(API_URL+"/api/v1/laboratories/getAllReports",{headers:header()})
+    return axios.post(API_URL+'/api/v1/laboratories/getAllReportsWithFilters',filter,{headers:header()})
 }
 
 const getReport = (data) =>{
