@@ -33,7 +33,7 @@ public class WebSecurity {
             "/api/v1/laboratories/saveReport",
             "/api/v1/laboratories/deleteReport/**",
             "/api/v1/laboratories/getReport/**",
-            "/api/v1/laboratories/getAllReports/**",
+            "/api/v1/laboratories/getAllReportsW/**",
             "/api/v1/laboratories/getAllPatientReports/**",
             "/api/v1/laboratories/currentUser"
     };

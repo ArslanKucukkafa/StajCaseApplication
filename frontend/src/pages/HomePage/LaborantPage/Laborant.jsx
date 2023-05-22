@@ -41,15 +41,15 @@ function Laborant() {
 
 useEffect(()=>{
   const fetchPosts = async () =>{
-  const res = await laborantService.listReport(searchFilter).catch((error)=>{console.log(error); if(error==="Error: 403"){console.log("-*098767890876545678765")}});
+  const res = await laborantService.listReport(searchFilter);
   console.log("Respofcdses",res);
   setReports(res.data);}
   fetchPosts()
-},[])
+},[searchFilter])
 
 const search = async () => {
   setReports([]);
-  const res = await laborantService.listReport(searchFilter).catch((error)=>{console.log(error); if(error==="Error: 403"){console.log("-*098767890876545678765")}});
+  const res = await laborantService.listReport(searchFilter);
   setReports(res.data);
   console.log(res,"------------------",searchFilter)
 }

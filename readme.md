@@ -41,4 +41,20 @@ You can login if you are confirmed account . try
 3. ![Register](./image/UserDetail.png)
 
 
+# New Features
+The some features changed.
+
+## Featuers
+1-Everybody can view all reports.
+
+2-Everybody can delete all reports.
+
+3-Everybody can update all reports but report laborantId set current account of laborantId
+
+4-You can search by desired paramters.You must send null all parameters If you want to all reports 
+
+5-You can sort reports by create date.
+
+New view
+![Register](./image/newFeatueres.png)
 
